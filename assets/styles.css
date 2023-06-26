@@ -68,7 +68,8 @@ section {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(12, 1fr);
-}
+    border-style: dashed white;
+  }
 
 body {
     background-color:rgb(65, 63, 66);
@@ -76,11 +77,11 @@ body {
 
 .card-header,
 .card-subtext {
-    border-style: solid white;
     color:rgb(167, 87, 187);    
 }
 
 article {
     border: 5px;
-    border-style: dashed;
+    border-style: solid rgb(167, 87, 187);
+    background-color: rgb(167, 87, 187);
 }
