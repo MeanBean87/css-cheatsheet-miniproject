@@ -6,10 +6,30 @@ header {
 
 header h1, p {
    text-align: center;
+   color:rgb(167, 87, 187);
+}
+
+p {
+    color: white;
 }
 
 section {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(12, 1fr);
+}
+
+body {
+    background-color:rgb(65, 63, 66);
+}
+
+.card-header,
+.card-subtext {
+    border-style: solid white;
+    color:rgb(167, 87, 187);    
+}
+
+article {
+    border: 5px;
+    border-style: dashed;
 }
